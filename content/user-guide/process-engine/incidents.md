@@ -21,7 +21,7 @@ runtimeService.createIncidentQuery()
   .list();
 ```
 
-Incidents are stored in the ACT_RU_INCIDENT database table.
+Incidents are stored in the ACT_HI_INCIDENT database table.
 
 If you want to customize the incident handling behavior, it is possible to replace the default incident handlers in the process engine configuration and provide custom implementations (see below).
 
